@@ -1,0 +1,16 @@
+% Preview wrapper: compiles the generated figure on its own page.
+% Rerun the Python script to update wrench_sets_3d.tex, then rebuild this file.
+\documentclass[a4paper]{article}
+\usepackage[margin=2cm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\usepackage{subcaption}
+\pagestyle{empty}
+
+\begin{document}
+\begin{figure}[p]
+    \centering
+    \input{wrench_sets_3d.tex}
+\end{figure}
+\end{document}
